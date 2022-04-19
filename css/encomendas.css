@@ -1,0 +1,89 @@
+
+body{
+    background-image: url(../img/backgroundPizza.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 0px;
+    padding: 0px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container{
+    background-color: #da673100;
+    text-align: center;
+    width: 65%;
+    margin: 0px auto;
+    padding-top: 2px;
+    height: 530pt;
+   
+}
+.titulo{
+    background-color: rgba(255, 255, 255, 0);
+    font-family: 'Lato', sans-serif;
+    font-size: 18pt;
+}
+.informações{
+    border: none;
+    background-color: rgba(255, 255, 255, 0.342);
+    width: 50%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    
+}
+
+.sabores{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 18px;
+  
+}
+table{
+    text-align:center;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid black;
+    border-collapse: collapse;
+    width: 50%;
+    background-color: #bdbcbc;
+}
+.gerarpedido{
+    font-size: 20pt;
+    border: 2px solid black;
+}
+.btnpedido{
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  
+
+}
+.pedido{
+    background-color: #bdbcbc;
+}
+tr{
+    border: 2px solid black;
+}
+
+#enviar{
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    cursor: pointer;
+}
+
+#estorno{
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    cursor: pointer;
+    font-size: 20px;
+}
+
+#btplanilha{
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    cursor: pointer;
+    font-size: 20px;
+}

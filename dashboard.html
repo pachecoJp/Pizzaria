@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/encomendas.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:ital,wght@1,100&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:ital,wght@1,100&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <title>Encomendas do pizza</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="titulo">
+            <h2>ENCOMENDAS</h2>
+        </div>
+        <div class="informações">
+            <div>
+                <img src="./img/iconPizza.png" alt="pizza">
+            </div>
+            <h3>Sabores</h3>
+            <div class="sabores">
+                <label for="mussarela"> <input type="radio" name="pizza" id="mussarela" checked> Mussarela</label>
+                <label for="calabresa"> <input type="radio" name="pizza" id="calabresa"> Calabresa</label>
+                <label for="margerita"> <input type="radio" name="pizza" id="margherita"> Margerita</label>
+            </div>
+            <h3>Orçamento</h3>
+            <table border="2" id="tabela">
+                <tr class="pedido">
+                    <th colspan="3">Pedido</th>
+                </tr>
+                <tr>
+                    <td>Pizza</td>
+                    <td>Quantidade</td>
+                    <td>Total</td>
+                </tr>
+                <tr>
+                    <td >Mussarela</td id="mussaerela">
+                    <td id="quantidadem"></td>
+                    <td id="somam"></td>
+                </tr>
+                <tr>
+                    <td>Calabresa</td id="calabresa">
+                        <td id="quantidadec"></td>
+                        <td id="somac"></td>
+                </tr>
+                <tr>
+                    <td>Margherita</td id="margherita">
+                        <td id="quantidadema"></td>
+                        <td id="somama"></td>
+                </tr>
+
+            </table>
+            <div class="btnpedido">
+                <input class="gerarpedido" type="button" id="enviar" value="Gerar pedido">
+            </div>
+
+            <div class="btnestorno">
+                <input class="estorno" type="button" id="estorno" value="Estorno">
+            </div>
+
+            <div class="btplanilha">
+                <button id="btplanilha">Enviar Planilha</button>
+                <script type="text/javascript" src="./tableToExcel.js"></script>
+            </div>
+
+        </div>
+
+
+    </div>
+<script src="./JS/script.js"></script>
+</body>
+
+</html>

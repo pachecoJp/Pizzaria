@@ -1,0 +1,72 @@
+
+    
+
+
+body {
+    background-image: url(../img/backgroundPizza.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.container{
+    margin-top: 110px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 250pt;
+    width: 350px;
+ 
+}
+
+h1{
+    text-align: center;
+    font-size: 45px;
+    font-family: 'Lato', sans-serif;
+    color: white;
+}
+
+h3{
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+input{
+    border: none;
+    height: 20pt;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 130pt;
+  
+}
+
+.email{
+    text-align: center;
+    margin-top: 40px
+}
+.password{
+    text-align:center;
+    margin-top: 40px
+}
+.entrar{
+    text-align: center;
+    margin-top: 30px;
+
+   
+    
+}
+.cadeado{
+    margin-top: 40px;
+    
+}
+.btnentrar{
+    font-size: 18px;
+   width: 50pt;
+   color: black;
+ 
+}

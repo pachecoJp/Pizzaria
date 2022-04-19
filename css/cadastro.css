@@ -1,0 +1,46 @@
+
+body{
+    background-image: url(../img/backgroundPizza.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 0px;
+    padding: 0px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container{
+    margin: 60px auto;
+    background-color: rgba(255, 255, 255, 0.308);
+    width: 30%;
+    text-align: center;
+    height: 350pt;
+ 
+}
+input{
+    border: none;
+    height: 20pt;
+    width: 200pt;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.titulo{
+    margin-top: 35px;
+    background-color: rgba(255, 255, 255, 0);
+    
+}
+h1{
+    color: white;
+    margin-top: 50pt;
+    font-family: 'Lato', sans-serif;
+}
+
+.btn{
+    height: 30pt;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 60pt;
+    margin-bottom: 50pt;
+    font-size: 15pt;
+}
+
+div{
+    margin-top: 35px;
+}
